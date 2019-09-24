@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "my-portfolio",
+  "alias": ["martakolodziejczak.com", "www.martakolodziejczak.com"],
+  "routes": [
+    { "src": "/docs/(.*)", "dest": "/docs/$1" },
+    { "handle": "filesystem" },
+    { "src": "/.*", "status": 404, "dest": "404.html" }
+  ]
+}

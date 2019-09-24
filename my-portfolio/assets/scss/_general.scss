@@ -1,0 +1,26 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $purple;
+
+  p {
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+  }
+}
+
+img {
+  border-style: none; /* remove border on img inside links in IE 10 and earlier. */
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
